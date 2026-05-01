@@ -395,14 +395,18 @@ ul { list-style: none; }
 .pricing-card.free .card-header { background: var(--color-primary); }
 .pricing-card.member .card-header { background: var(--color-secondary); }
 
-.card-header .tier-label {
+.tier-pill {
+  display: inline-block;
+  background: rgba(255,255,255,0.25);
+  color: white;
   font-family: var(--font-display);
   font-size: 13px;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 2px;
-  color: rgba(255,255,255,0.8);
-  margin-bottom: 6px;
+  text-transform: uppercase;
+  padding: 4px 16px 6px;
+  border-radius: 9999px;
+  margin-bottom: 10px;
 }
 
 .card-header .card-price {
