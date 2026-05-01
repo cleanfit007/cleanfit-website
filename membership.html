@@ -90,6 +90,20 @@
       color: var(--color-near-black);
     }
     .faq-item p { font-size: 15px; color: #555; line-height: 1.7; }
+
+    .tier-pill {
+      display: inline-block;
+      background: rgba(255,255,255,0.25);
+      color: white;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 16px 6px;
+      border-radius: 9999px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -142,8 +156,8 @@
         <!-- FREE Card -->
         <div class="pricing-card free">
           <div class="card-header">
-            <p class="tier-label">Free Tier</p>
-            <p class="card-price">Free</p>
+            <span class="tier-pill">FREE</span>
+            <p class="card-price">Join Free</p>
             <p class="card-subtitle">No card required</p>
           </div>
           <div class="card-body">
@@ -179,8 +193,8 @@
         <!-- MEMBER Card -->
         <div class="pricing-card member">
           <div class="card-header">
-            <p class="tier-label">Member</p>
-            <p class="card-price">$9<span style="font-size:20px;font-weight:400"> / month</span></p>
+            <span class="tier-pill">MEMBER</span>
+            <p class="card-price">$14<span style="font-size:20px;font-weight:400"> / month</span></p>
             <p class="card-subtitle">Founder Pricing</p>
           </div>
           <div class="card-body">
@@ -220,9 +234,6 @@
         </div>
       </div>
 
-      <div class="pricing-summary">
-        <strong>Free = learn movements + improve awareness</strong> &nbsp;·&nbsp; <strong>Member = build strength + full lifestyle application</strong>
-      </div>
     </div>
   </section>
 
@@ -232,7 +243,7 @@
       <div class="section-header">
         <h2 class="headline-lg">How to Join</h2>
         <hr class="gradient-divider">
-        <p>Three simple steps. Takes less than two minutes.</p>
+        <p>Four simple steps. Takes less than two minutes.</p>
       </div>
       <div class="how-to-join">
         <div class="join-steps">
@@ -255,6 +266,13 @@
             <div>
               <h3>Start Moving</h3>
               <p>Watch the intro, learn your first movement, and apply it next time you clean. That's it. No schedule. No pressure. Just better movement.</p>
+            </div>
+          </div>
+          <div class="join-step">
+            <div class="join-step-num">4</div>
+            <div>
+              <h3>Share in the Community</h3>
+              <p>Post what you tried, what you noticed, what felt different. That's how CleanFit grows — shared experiences, not perfect performances.</p>
             </div>
           </div>
         </div>
@@ -284,7 +302,7 @@
         </div>
         <div class="faq-item">
           <h3>What is Founder Pricing?</h3>
-          <p>$9/month is the launch price for early members who join during the founding period. This rate is locked in for as long as you remain a member — the price will increase for new members joining later.</p>
+          <p>$14/month is the launch price for early members who join during the founding period. This rate is locked in for as long as you remain a member — the price will increase for new members joining later.</p>
         </div>
         <div class="faq-item">
           <h3>How much time does it take?</h3>
@@ -306,7 +324,7 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-logo">
-        <img src="assets/cleanfit-logo-graphic-circle-500px.png" alt="CleanFit">
+        <img src="assets/cleanfit-logo-horizontal-dark.png" alt="CleanFit" style="height:40px;width:auto;">
         <p class="footer-tagline">Move better. Clean smarter.</p>
       </div>
       <div class="footer-links">
@@ -320,7 +338,7 @@
         <a href="https://instagram.com/cleanfit007" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
         </a>
-        <a href="https://facebook.com/CleanFit" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+        <a href="https://www.facebook.com/profile.php?id=61574846408626" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
         </a>
         <a href="https://tiktok.com/@cleanfitaus" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok">
