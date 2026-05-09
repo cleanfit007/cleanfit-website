@@ -548,7 +548,8 @@ ul { list-style: none; }
   align-items: center;
 }
 .footer-bottom p { font-size: 13px; color: #555; }
-.footer-skool { font-size: 13px; color: var(--color-primary); }
+.footer-qr img { width: 70px; height: 70px; display: block; background: #fff; padding: 6px; border-radius: 4px; opacity: 0.85; transition: opacity 0.2s; }
+.footer-qr:hover img { opacity: 1; }
 
 /* ============================================
    Page Hero (inner pages)
