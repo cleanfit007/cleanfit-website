@@ -496,12 +496,6 @@ ul { list-style: none; }
 }
 
 .footer-logo img { width: 60px; }
-.footer-logo .footer-tagline {
-  font-family: var(--font-script);
-  font-size: 16px;
-  color: #888;
-  margin-top: 8px;
-}
 
 .footer-links {
   display: flex;
